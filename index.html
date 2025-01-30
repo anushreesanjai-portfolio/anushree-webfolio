@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Design with Intention</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="dynamic-title">Design with <span id="changing-word">Intention</span></h1>
+    </header>
+    
+    <main>
+        <div class="grid-container">
+            <a href="design.html" class="grid-item design">
+                <img src="design.svg" alt="Design">
+                <h2>Design</h2>
+            </a>
+            <a href="psychology.html" class="grid-item psychology">
+                <img src="psychology.svg" alt="Psychology">
+                <h2>Psychology</h2>
+            </a>
+            <a href="about.html" class="grid-item about">
+                <img src="about.jpg" alt="About">
+                <h2>About</h2>
+            </a>
+            <a href="more.html" class="grid-item more">
+                <img src="more.jpg" alt="More">
+                <h2>More</h2>
+            </a>
+        </div>
+    </main>
+
+    <!-- Audio Element (Hidden) -->
+    <audio id="bg-music" loop>
+        <source src="backgroundmusic.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Play/Pause Button -->
+    <button id="music-btn">Play Music 🎵</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

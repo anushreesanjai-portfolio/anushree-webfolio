@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+h1 {
+    font-family: 'Iceberg', sans-serif;
+    font-size: 2.5rem;
+}
+
+h1 span {
+    color: #ff4d6d;
+    transition: 0.5s ease-in-out;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+.grid-item {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.grid-item h2 {
+    font-family: 'Iceberg', sans-serif;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+/* Hover Effects */
+.grid-item:hover {
+    transform: scale(1.05);
+}
+
+/* Style for the Play/Pause button */
+#music-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#music-btn:hover {
+    background: #ff4b4b;
+}
