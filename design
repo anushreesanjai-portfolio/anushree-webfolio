@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Design Projects</h1>
+    </header>
+
+    <main>
+        <div class="projects-grid">
+            <a href="rubi-learn.html" class="project-card">
+                <img src="rubi-learn.jpg" alt="RUBI-learn">
+                <h2>RUBI-learn</h2>
+                <p>A product designed for users with anxiety or ADHD, teaching them how to solve a Rubik's Cube.</p>
+            </a>
+
+            <a href="earthique.html" class="project-card">
+                <img src="earthique.jpg" alt="EARTHIQUE">
+                <h2>EARTHIQUE</h2>
+                <p>A visual brand identity for an upcycled fashion brand, created using Adobe Illustrator & Photoshop.</p>
+            </a>
+
+            <a href="code.html" class="project-card">
+                <img src="code.jpg" alt="CODE(PROGRAMMING)">
+                <h2>CODE(PROGRAMMING)</h2>
+                <p>Exploration of HTML, CSS, JS, Python & Scratch in multiple assignments, including a portfolio website.</p>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <a href="index.html" class="back-link">← Back to Home</a>
+    </footer>
+</body>
+</html>
